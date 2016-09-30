@@ -2,7 +2,7 @@
 
 namespace Macghriogair\Support;
 
-use Macghriogair\Support\String;
+use Macghriogair\Support\Str;
 
 class Token
 {
@@ -23,6 +23,6 @@ class Token
      */
     public static function apiToken($length = 60)
     {
-        return String::random($length);
+        return Str::random($length);
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Macghriogair\Support;
 
-class String
+class Str
 {
     /**
      * Determine if a given string contains a given substring.
