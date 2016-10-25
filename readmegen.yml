@@ -1,0 +1,22 @@
+# ReadmeGen configuration file.
+# cf. https://github.com/fojuth/readmegen
+vcs: git
+format: md
+issue_tracker_pattern: https://github.com/macghriogair/php-support/issues/\1
+break: "# Changelog"
+output_file_name: "CHANGELOG.md"
+message_groups:
+  Tasks:
+    - task
+  Features:
+    - feature
+    - feat
+  Bugfixes:
+    - fix
+    - bugfix
+    - redmine
+  Documentation:
+    - docs
+  Refactoring:
+    - refactoring
+    - refactor
