@@ -10,13 +10,18 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.6.4",
+        "php": ">=7.0",
         "ext-mbstring": "*",
         "paragonie/random_compat": "~1.4|~2.0"
     },
     "require-dev": {
         "mockery/mockery": "~0.9.4",
-        "phpunit/phpunit": "~5.4"
+        "phpunit/phpunit": "6.*",
+        "squizlabs/php_codesniffer": "2.*",
+        "phploc/phploc": "dev-master",
+        "sebastian/phpcpd": "2.0.*@dev",
+        "pdepend/pdepend": "2.2.2",
+        "phpmd/phpmd": "@stable"
     },
     "autoload": {
         "files": [

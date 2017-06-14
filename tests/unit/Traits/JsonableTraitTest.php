@@ -9,7 +9,7 @@ namespace Macghriogair\Support\Tests;
 
 use Macghriogair\Support\Traits\JsonableTrait;
 
-class JsonableTraitTest extends \PHPUnit_Framework_TestCase
+class JsonableTraitTest extends \PHPUnit\Framework\TestCase
 {
 
     /** @test */

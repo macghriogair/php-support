@@ -9,7 +9,7 @@ namespace Tests;
 
 use Macghriogair\Support\Parser\HtmlParser;
 
-class HtmlParserTest extends \PHPUnit_Framework_TestCase
+class HtmlParserTest extends \PHPUnit\Framework\TestCase
 {
 
     /** @test */
