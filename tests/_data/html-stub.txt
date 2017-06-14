@@ -1,0 +1,41 @@
+
+
+<li>
+    <a href="javascript:void(0);" onclick="setSomething(0, 0, this.innerHTML, 0, 'spearc')" class="name">
+        Acme / Offers
+    </a>
+
+
+        <div id="spearc2492">
+            <a onclick="mumblemumble(0, 'spearc', 2);" href="javascript:void(0);" class="icon add"></a>
+        </div>
+
+</li>
+
+
+
+<li>
+    <a href="javascript:void(0);" onclick="setSomething(0, 1, this.innerHTML, 0, 'spearc')" class="name">
+        Acme / Clients
+    </a>
+
+
+        <div id="spearc2410">
+            <a onclick="mumblemumble(0, 'spearc', 2);" href="javascript:void(0);" class="icon cancel"></a>
+        </div>
+
+</li>
+
+
+
+<li>
+    <a href="javascript:void(0);" onclick="setSomething(0, 1, this.innerHTML, 0, 'spearc')" class="name">
+        Acme / Products
+    </a>
+
+
+        <div id="spearc2562">
+            <a onclick="mumblemumble(0, 'spearc', 2);" href="javascript:void(0);" class="icon cancel"></a>
+        </div>
+
+</li>

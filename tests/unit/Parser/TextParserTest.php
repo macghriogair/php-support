@@ -4,7 +4,7 @@ namespace Macghriogair\Support\Tests;
 
 use Macghriogair\Support\Parser\TextParser;
 
-class TextParserTest extends \PHPUnit_Framework_TestCase
+class TextParserTest extends \PHPUnit\Framework\TestCase
 {
     /** @test */
     public function it_parses_comma_separated_words()

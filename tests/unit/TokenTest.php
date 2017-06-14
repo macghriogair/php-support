@@ -4,7 +4,7 @@ namespace Macghriogair\Support\Tests;
 
 use Macghriogair\Support\Token;
 
-class TokenTest extends \PHPUnit_Framework_TestCase
+class TokenTest extends \PHPUnit\Framework\TestCase
 {
 
     /** @test */

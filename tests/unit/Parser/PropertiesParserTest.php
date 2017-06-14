@@ -4,7 +4,7 @@ namespace Macghriogair\Support\Tests;
 
 use Macghriogair\Support\Parser\PropertiesParser;
 
-class PropertiesParserTest extends \PHPUnit_Framework_TestCase
+class PropertiesParserTest extends \PHPUnit\Framework\TestCase
 {
     /** @test */
     public function itParsesAJavaStylePropertiesString()

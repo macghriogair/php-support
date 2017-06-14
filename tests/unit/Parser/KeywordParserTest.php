@@ -4,7 +4,7 @@ namespace Macghriogair\Support\Tests;
 
 use Macghriogair\Support\Parser\KeywordParser;
 
-class KeywordParserTest extends \PHPUnit_Framework_TestCase
+class KeywordParserTest extends \PHPUnit\Framework\TestCase
 {
     /** @test */
     public function it_translates_only_if_necessary()

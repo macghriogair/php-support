@@ -2,6 +2,8 @@
 
 namespace Macghriogair\Support;
 
+use Macghriogair\Support\Str;
+
 class File
 {
     /**
@@ -17,7 +19,7 @@ class File
             throw new \Exception('Invalid file handle!');
         }
         while (($line = fgets($handle, 4096)) !== false) {
-            if (mb_detect_encoding($line, 'UTF-8,ISO-8859-1,WINDOWS-1252', true) !== 'UTF-8') {
+            if (! Str::isUTF8($line)) {
                 fclose($handle);
                 return false;
             }

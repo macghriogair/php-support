@@ -2,8 +2,6 @@
 
 namespace Macghriogair\Support;
 
-use Macghriogair\Support\String;
-
 class Token
 {
     /**
@@ -11,9 +9,9 @@ class Token
      *
      * @return string
      */
-    public static function humanReadableToken()
+    public static function humanReadableToken(int $length = 4)
     {
-        return bin2hex(openssl_random_pseudo_bytes(4));
+        return bin2hex(openssl_random_pseudo_bytes($length));
     }
 
     /**
@@ -23,6 +21,6 @@ class Token
      */
     public static function apiToken($length = 60)
     {
-        return String::random($length);
+        return Str::random($length);
     }
 }

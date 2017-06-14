@@ -2,7 +2,7 @@
 
 namespace Macghriogair\Support;
 
-class String
+class Str
 {
     /**
      * Determine if a given string contains a given substring.
@@ -134,5 +134,16 @@ class String
     {
         // i.e. "21.07.1998"
         return preg_match('/^[0-9]{2}\.[0-9]{2}\.[0-9]{4}$/', $dateString);
+    }
+
+    /**
+     * Determine whether a string contaoins only UTF-8 chars.
+     *
+     * @param  string $str
+     * @return boolean
+     */
+    public static function isUTF8($str)
+    {
+        return mb_detect_encoding($str, 'UTF-8,ISO-8859-1,WINDOWS-1252', true) === 'UTF-8';
     }
 }
